@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<!--  Autora: Laura Viviana Álvarez Carvajal -->
+
+<html>
+
+<head>
+    <title>SUDOKU</title>
+
+    <!-- Codificación de caracteres Unicode -->
+    <meta charset="UTF-8">
+
+    <!-- Línea usada para que se muestre el diseño adaptativo en smartphones y tablets -->
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+
+    <!-- Cambia el color de la barra de direcciones en Android 5.0+ -->
+    <meta name="theme-color" content="#000">
+
+    <!-- Mis css -->
+    <link rel="stylesheet" type="text/css" href="styles/styles.css">
+    <link rel="stylesheet" type="text/css" href="styles/menu.css">
+    <link rel="stylesheet" type="text/css" href="styles/responsive.css">
+
+    <!-- Google Fonts: Fuentes usadas en el sitio web -->
+    <link href='https://fonts.googleapis.com/css?family=Slabo+27px' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css'>
+
+</head>
+
+<body>
+
+    <!-- Banner estático de la página -->
+    <div class="banner">
+        <center><a href="index.html">Laura Álvarez</a></center>
+    </div>
+
+    <!-- Espacio usado para que el banner no cubra el menú al principio -->
+    <div class="empty">
+        <center>Laura Álvarez</center>
+    </div>
+
+    <!-- Menú del sitio web -->
+    <ul class="menu">
+        <li><a class="menu-item" href="proyectos.html">Proyectos</a>
+            <ul>
+                <li><a class="menu-item menu-inner-item" href="agente.html">Agente</a></li>
+                <li><a class="menu-item menu-inner-item" href="sudoku.html">Sudoku</a></li>
+                <li><a class="menu-item menu-inner-item" href="horarios.html">Horarios</a></li>
+                <li><a class="menu-item menu-inner-item" href="programacion.html">Programación Competitiva</a></li>
+            </ul>
+        </li>
+        <div class="menu-text">|</div>
+        <li><a class="menu-item" href="sobre-mi.html">Sobre mí</a></li>
+    </ul>
+
+    <!-- Contenido de la página -->
+    <div class="content">
+        <!-- Titulo de la página -->
+        <div class="title">Sudoku</div>
+
+        <!-- Texto -->
+        <div class="container">
+            <p>Un <a href="https://www.wikiwand.com/es/Algoritmo_gen%C3%A9tico"><b>algoritmo genético</b></a> se basa en la evolución biológica para su funcionamiento.</p>
+            <p>La idea es partir de una población inicial para crear nuevas generaciones. Como en la naturaleza, los individuos pueden reproducirse y crear nuevos individuos. Se parte de la selección natural para escoger a los individuos más aptos que sobreviven y descartar a los menos aptos.</p>
+            <p>Para implementar un algoritmo genético se debe escoger una característica llamada aptitud que irá mejorando en los individuos conforme se ejecuta el programa.</p>
+            <p>El algoritmo genético se aplica de la siguiente manera:
+                <ol>
+                    <li>Se genera una población inicial partiendo del sudoku a resolver.</li>
+                    <li>Se calcula la aptitud de la población. Para el sudoku, la aptitud será la menor cantidad de números repetidos por filas, columnas y cuadros de 3 x 3.</li>
+                    <li>Se escogen los individuos más aptos y se cruzan entre sí.</li>
+                    <li>Se calcula la aptitud de los nuevos individuos.</li>
+                    <li>Se descartan los individuos con menos aptitud.</li>
+                    <li>Se realizan los pasos del 2 al 5 cierta cantidad de iteraciones.</li>
+                    <li>Se obtiene el individuo más apto, es decir, la solución óptima al sudoku.</li>
+                </ol>
+            </p>
+
+            <!-- Imagen de la pagina -->
+            <div class="card-container">
+                <div class="card">
+                    <img src="images/sudoku.jpg">
+                    <div class="card-title">Sudoku</div>
+                </div>
+            </div>
+
+            <center>
+                <p>El proyecto fue desarrollado en Java y fue realizado por:
+                    <ul>
+                        <li>Laura Viviana Álvarez Carvajal</li>
+                        <li>Andrés Felipe López Becerra</li>
+                    </ul>
+                </p>
+                <div class="arrow-link-container">
+                    <div class="arrow-link">
+                        <!-- Link de vuelta a los proyectos -->
+                        <a href="proyectos.html">
+                            <b>← Volver a los proyectos</b>
+                        </a>
+                    </div>
+                    <div class="arrow-link">
+                        <!-- Link al siguiente proyecto -->
+                        <a href="horarios.html">
+                            <b>Siguiente proyecto →</b>
+                        </a>
+                    </div>
+                </div>
+            </center>
+        </div>
+    </div>
+
+
+    <!-- Pie de página -->
+    <div class="footer">
+        <center>
+            <a href="proyectos.html">Proyectos</a>|
+            <a href="sobre-mi.html">Sobre mí</a> |
+            <a href="mapa-sitio.html">Mapa del sitio</a>
+        </center>
+        <br> © LAURA ÁLVAREZ
+    </div>
+</body>
+
+</html>

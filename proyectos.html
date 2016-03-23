@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<!--  Autora: Laura Viviana Álvarez Carvajal -->
+
+<html>
+
+<head>
+    <title>PROYECTOS</title>
+
+    <!-- Codificación de caracteres Unicode -->
+    <meta charset="UTF-8">
+
+    <!-- Línea usada para que se muestre el diseño adaptativo en smartphones y tablets -->
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+
+    <!-- Cambia el color de la barra de direcciones en Android 5.0+ -->
+    <meta name="theme-color" content="#000">
+
+    <!-- Mis css -->
+    <link rel="stylesheet" type="text/css" href="styles/styles.css">
+    <link rel="stylesheet" type="text/css" href="styles/menu.css">
+    <link rel="stylesheet" type="text/css" href="styles/responsive.css">
+
+    <!-- Google Fonts: Fuentes usadas en el sitio web -->
+    <link href='https://fonts.googleapis.com/css?family=Slabo+27px' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css'>
+
+</head>
+
+<body>
+
+    <!-- Banner estático de la página -->
+    <div class="banner">
+        <center><a href="index.html">Laura Álvarez</a></center>
+    </div>
+
+    <!-- Espacio usado para que el banner no cubra el menú al principio -->
+    <div class="empty">
+        <center>Laura Álvarez</center>
+    </div>
+
+    <!-- Menú del sitio web -->
+    <ul class="menu">
+        <li><a class="menu-item" href="proyectos.html">Proyectos</a>
+            <ul>
+                <li><a class="menu-item menu-inner-item" href="agente.html">Agente</a></li>
+                <li><a class="menu-item menu-inner-item" href="sudoku.html">Sudoku</a></li>
+                <li><a class="menu-item menu-inner-item" href="horarios.html">Horarios</a></li>
+                <li><a class="menu-item menu-inner-item" href="programacion.html">Programación Competitiva</a></li>
+            </ul>
+        </li>
+        <div class="menu-text">|</div>
+        <li><a class="menu-item" href="sobre-mi.html">Sobre mí</a></li>
+    </ul>
+
+    <!-- Contenido de la página -->
+    <div class="content">
+        <!-- Titulo de la página -->
+        <div class="title">Proyectos</div>
+
+        <!-- Texto -->
+        <div class="container">
+            <p>La siguiente es una lista de los proyectos que he realizado a lo largo de la carrera. Enlisté los que más me han gustado y en los que más he aprendido sobre las ciencias de la computación. </p>
+            <p>Algunos de los proyectos hacen uso de algoritmos genéticos capaces de encontrar la solución óptima a un problema. El proyecto en el que trabajo actualmente hace uso de la inteligencia artificial para resolver un problema en el menor tiempo posible.</p>
+
+
+            <!-- Contenedor de tarjetas con proyectos -->
+            <div class="card-container">
+                <div class="card">
+                    <!-- Imagen de la tarjeta -->
+                    <div class="image" data-content="Más información aquí." onclick="location.href='agente.html'">
+                        <img src="images/maze4.PNG">
+                    </div>
+                    <!-- Titulo de la tarjeta -->
+                    <div class="card-title">Agente Inteligente</div>
+                </div>
+
+                <div class="card">
+                    <!-- Imagen de la tarjeta -->
+                    <div class="image" data-content="Más información aquí." onclick="location.href='sudoku.html'">
+                        <img src="images/sudoku.jpg">
+                    </div>
+                    <!-- Titulo de la tarjeta -->
+                    <div class="card-title">Sudoku</div>
+                </div>
+            </div>
+            <div class="card-container" style="padding-bottom:20px;">
+                <div class="card">
+                    <!-- Imagen de la tarjeta -->
+                    <div class="image" data-content="Más información aquí." onclick="location.href='horarios.html'">
+                        <img src="images/schedule.jpg">
+                    </div>
+                    <!-- Titulo de la tarjeta -->
+                    <div class="card-title">Generación de Horarios</div>
+                </div>
+                <div class="card">
+                    <!-- Imagen de la tarjeta -->
+                    <div class="image" data-content="Más información aquí." onclick="location.href='programacion.html'">
+                        <img src="images/icpc_logo.png">
+                    </div>
+                    <!-- Titulo de la tarjeta -->
+                    <div class="card-title">Programación Competitiva</div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Pie de página -->
+    <div class="footer">
+        <center>
+            <a href="proyectos.html">Proyectos</a>|
+            <a href="sobre-mi.html">Sobre mí</a> |
+            <a href="mapa-sitio.html">Mapa del sitio</a>
+        </center>
+        <br> © LAURA ÁLVAREZ
+    </div>
+</body>
+
+</html>
