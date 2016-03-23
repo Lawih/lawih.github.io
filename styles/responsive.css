@@ -25,7 +25,7 @@
         font-weight: bold;
     }
     .card .image:after {
-        font-size: 20px;
+        font-size: 25px;
     }
     /* Hace que las imagenes de la pagina de inicio ocupen todo el ancho */
     .collage-image {
@@ -83,7 +83,7 @@
         font-size: 40px;
     }
     .card .image:after {
-        font-size: 20px;
+        font-size: 22px;
     }
     .horizontal-card {
         margin: 0 30px;
@@ -129,6 +129,9 @@
     }
     .collage .image:after {
         font-size: 50px;
+    }
+    .card .image:after {
+        font-size: 25px;
     }
     /* Hace que las imagenes de la pagina de inicio ocupen cada una la mitad */
     .collage-image {
