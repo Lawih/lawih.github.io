@@ -1,7 +1,7 @@
-var menu = {
+var poison = {
     // Cargar imagen de fondo
     preload: function () {
-        game.load.image('background', 'resources/menuMessage.png');
+        game.load.image('background', 'resources/poisonMessage.png');
     },
 
     create: function () {
@@ -15,6 +15,6 @@ var menu = {
     },
 
     start: function () {
-        game.state.start('poison');
+        game.state.start('play');
     }
 }

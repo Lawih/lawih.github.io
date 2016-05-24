@@ -3,6 +3,7 @@ var game = new Phaser.Game(800, 320, Phaser.AUTO, 'game');
 
 // Se crean los estados del juego
 game.state.add('menu', menu);
+game.state.add('poison', poison);
 game.state.add('play', play);
 game.state.add('end', end);
 game.state.add('loose', loose);
