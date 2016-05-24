@@ -1,7 +1,7 @@
 var drown = {
     // Cargar imagen de fondo
     preload: function () {
-        game.load.image('background', 'resources/drownMessage.png');
+        game.load.image('background', 'resources/DrownMessage.png');
     },
 
     create: function () {
