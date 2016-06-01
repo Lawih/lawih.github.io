@@ -74,6 +74,17 @@ ol li {
     color: #0ee1c8;
 }
 
+.banner.game {
+    font-family: 'VT323', cursive;
+    font-size: 35px;
+}
+
+.menu.game,
+.card-title.game,
+.title.game {
+    font-family: 'VT323', cursive;
+}
+
 
 /* Para el link del banner, el titulo es un link que lleva a index.html */
 
@@ -93,6 +104,11 @@ ol li {
     background: rgba(0, 0, 0, 0);
     font-family: 'Pacifico', cursive;
     opacity: 0;
+}
+
+.empty.game {
+    font-family: 'VT323', cursive;
+    font-size: 35px;
 }
 
 
